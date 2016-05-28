@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MainCaller", "MainBuilder.vcxproj", "{3FF425A9-4745-4889-B568-4BBCA2016D22}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pycaffe", "..\..\pycaffe_build\pycaffe\pycaffe.vcxproj", "{A4B910C1-964A-406D-9CCA-8C45585EAA8D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "matcaffe", "..\..\matcaffe_build\matcaffe\matcaffe.vcxproj", "{DCC91D9F-39B4-4404-ACD2-EB2EDBD45772}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FF425A9-4745-4889-B568-4BBCA2016D22}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{3FF425A9-4745-4889-B568-4BBCA2016D22}.Debug|Mixed Platforms.Build.0 = Debug|x64
+		{3FF425A9-4745-4889-B568-4BBCA2016D22}.Debug|Win32.ActiveCfg = Debug|x64
+		{3FF425A9-4745-4889-B568-4BBCA2016D22}.Debug|x64.ActiveCfg = Debug|x64
+		{3FF425A9-4745-4889-B568-4BBCA2016D22}.Debug|x64.Build.0 = Debug|x64
+		{3FF425A9-4745-4889-B568-4BBCA2016D22}.Release|Mixed Platforms.ActiveCfg = Release|x64
+		{3FF425A9-4745-4889-B568-4BBCA2016D22}.Release|Mixed Platforms.Build.0 = Release|x64
+		{3FF425A9-4745-4889-B568-4BBCA2016D22}.Release|Win32.ActiveCfg = Release|x64
+		{3FF425A9-4745-4889-B568-4BBCA2016D22}.Release|x64.ActiveCfg = Release|x64
+		{3FF425A9-4745-4889-B568-4BBCA2016D22}.Release|x64.Build.0 = Release|x64
+		{A4B910C1-964A-406D-9CCA-8C45585EAA8D}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{A4B910C1-964A-406D-9CCA-8C45585EAA8D}.Debug|Mixed Platforms.Build.0 = Debug|x64
+		{A4B910C1-964A-406D-9CCA-8C45585EAA8D}.Debug|Win32.ActiveCfg = Debug|x64
+		{A4B910C1-964A-406D-9CCA-8C45585EAA8D}.Debug|x64.ActiveCfg = Debug|x64
+		{A4B910C1-964A-406D-9CCA-8C45585EAA8D}.Debug|x64.Build.0 = Debug|x64
+		{A4B910C1-964A-406D-9CCA-8C45585EAA8D}.Release|Mixed Platforms.ActiveCfg = Release|x64
+		{A4B910C1-964A-406D-9CCA-8C45585EAA8D}.Release|Mixed Platforms.Build.0 = Release|x64
+		{A4B910C1-964A-406D-9CCA-8C45585EAA8D}.Release|Win32.ActiveCfg = Release|x64
+		{A4B910C1-964A-406D-9CCA-8C45585EAA8D}.Release|x64.ActiveCfg = Release|x64
+		{A4B910C1-964A-406D-9CCA-8C45585EAA8D}.Release|x64.Build.0 = Release|x64
+		{DCC91D9F-39B4-4404-ACD2-EB2EDBD45772}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{DCC91D9F-39B4-4404-ACD2-EB2EDBD45772}.Debug|Mixed Platforms.Build.0 = Debug|x64
+		{DCC91D9F-39B4-4404-ACD2-EB2EDBD45772}.Debug|Win32.ActiveCfg = Debug|x64
+		{DCC91D9F-39B4-4404-ACD2-EB2EDBD45772}.Debug|x64.ActiveCfg = Debug|x64
+		{DCC91D9F-39B4-4404-ACD2-EB2EDBD45772}.Debug|x64.Build.0 = Debug|x64
+		{DCC91D9F-39B4-4404-ACD2-EB2EDBD45772}.Release|Mixed Platforms.ActiveCfg = Release|x64
+		{DCC91D9F-39B4-4404-ACD2-EB2EDBD45772}.Release|Mixed Platforms.Build.0 = Release|x64
+		{DCC91D9F-39B4-4404-ACD2-EB2EDBD45772}.Release|Win32.ActiveCfg = Release|x64
+		{DCC91D9F-39B4-4404-ACD2-EB2EDBD45772}.Release|x64.ActiveCfg = Release|x64
+		{DCC91D9F-39B4-4404-ACD2-EB2EDBD45772}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
